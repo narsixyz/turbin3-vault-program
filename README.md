@@ -8,6 +8,8 @@ GitHub username on-chain.
 
 ![Architecture](./assets/architecture.png)
 
+![Lifecycle](./assets/lifecycle.png)
+
 ## How it works
 
 `vault_state` (seeds `["state", user]`) stores the bumps for both PDAs. `vault`
