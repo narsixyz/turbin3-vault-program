@@ -113,7 +113,7 @@ describe("pre-req-vault", () => {
     )[0];
 
     const tx = await program.methods
-      .withdraw(new BN(withdrawAmount))
+      .withdraw(new BN(withdrawAmount), "narsixyz")
       .accountsStrict({
         user: user,
         vaultState: vaultStatePda,
